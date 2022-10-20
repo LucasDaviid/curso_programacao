@@ -52,6 +52,7 @@ public class Main {
                 System.out.println(vect[i].getName());
             }
         }
+
         sc.close();
     }
 }
