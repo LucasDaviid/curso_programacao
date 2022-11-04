@@ -27,11 +27,15 @@ public class Account {
         this.holder = holder;
     }
 
-    public void withdraw(Double amount){
-        balance -= amount;
+    public Double getBalance() {
+        return balance;
     }
 
-    public void deposit(Double amount){
+    public void withdraw(double amount){
+        balance -= amount + 5.0;
+    }
+
+    public void deposit(double amount){
         balance += amount;
     }
 }
