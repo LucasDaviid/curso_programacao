@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Projeto_matematica/Projeto_matematica.iml" filepath="$PROJECT_DIR$/Projeto_matematica/Projeto_matematica.iml" />
       <module fileurl="file://$PROJECT_DIR$/abstract_methods_and_classes_ex1/abstract_methods_and_classes_ex1.iml" filepath="$PROJECT_DIR$/abstract_methods_and_classes_ex1/abstract_methods_and_classes_ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/abstract_methods_and_classes_ex2/abstract_methods_and_classes_ex2.iml" filepath="$PROJECT_DIR$/abstract_methods_and_classes_ex2/abstract_methods_and_classes_ex2.iml" />
       <module fileurl="file://$PROJECT_DIR$/composition_ex1/composition_ex1.iml" filepath="$PROJECT_DIR$/composition_ex1/composition_ex1.iml" />
       <module fileurl="file://$PROJECT_DIR$/composition_ex2/composition_ex2.iml" filepath="$PROJECT_DIR$/composition_ex2/composition_ex2.iml" />
       <module fileurl="file://$PROJECT_DIR$/composition_ex3/composition_ex3.iml" filepath="$PROJECT_DIR$/composition_ex3/composition_ex3.iml" />
