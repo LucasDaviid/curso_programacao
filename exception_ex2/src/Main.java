@@ -31,15 +31,12 @@ public class Main {
             System.out.print("Check-out date (dd/mm/yyyy): ");
             checkOut = sdf.parse(sc.next());
 
-            Date now = new Date();
-            if (checkIn.before(now) || checkOut.before(now)){ // os testes se encontram no programa principal
-                System.out.println("Reservation dates for update must be future dates");
-            }
-            else if (!checkOut.after(checkIn)){
-                System.out.println("Error in reservation: Check-out date must be after check-in date");
+            String error = reservation.updateDate(checkIn, checkOut); // Setamos para retornar numa variavel String pois o reservation.updateDate retorna uma String
+
+            if (error != null){
+                System.out.println("Error in reservation: " + error); // Caso retorne algum erro informamos que está na classe Reservation e o erro
             }
             else {
-                reservation.updateDate(checkIn, checkOut);
                 System.out.println("Reservation Update: " + reservation);
             }
         }
