@@ -32,7 +32,7 @@ public class Main {
             checkOut = sdf.parse(sc.next());
 
             Date now = new Date();
-            if (checkIn.before(now) || checkOut.before(now)){
+            if (checkIn.before(now) || checkOut.before(now)){ // os testes se encontram no programa principal
                 System.out.println("Reservation dates for update must be future dates");
             }
             else if (!checkOut.after(checkIn)){
